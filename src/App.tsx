@@ -1,8 +1,8 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { WelcomePage } from './pages/welcomePage';
-// import { LoginPage } from './pages/loginPage';
+import { LoginPage } from './pages/loginPage';
 // import { CreateAccountPage } from './pages/CreateAccountPage';
 // import { AccountSettingsPage } from './pages/AccountSettingsPage';
 
@@ -13,10 +13,10 @@ function App() {
         <div className="w-[455px] bg-[#c4c3c325] min-h-screen shadow-lg">
           <Routes>
             <Route path="/" element={<WelcomePage />} />
-            {/* <Route path="/login" element={<LoginPage />} />
-            <Route path="/create-account" element={<CreateAccountPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            {/* <Route path="/create-account" element={<CreateAccountPage />} />
             <Route path="/account-settings" element={<AccountSettingsPage />} />
-            <Route path="*" element={<Navigate to="/" replace />} /> */}
+            <Route path="*" element={<Navigate to="/" replace />} />  */}
           </Routes>
         </div>
       </div>

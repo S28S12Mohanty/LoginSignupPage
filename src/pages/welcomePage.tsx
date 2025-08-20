@@ -7,8 +7,8 @@ export function WelcomePage() {
     <div className="h-screen flex flex-col justify-end p-8 pb-16 bg-transparent">
       <div className="text-center space-y-6">
         <div className="space-y-4 mb-12">
-          <h1 className="text-2xl font-bold text-black">Welcome to PopX</h1>
-          <p className="text-[#666666] leading-relaxed">
+          <h1 className="text-4xl font-bold text-black">Welcome to PopX</h1>
+          <p className="text-[#666666] leading-relaxed text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           </p>
         </div>
