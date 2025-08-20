@@ -3,7 +3,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { WelcomePage } from './pages/welcomePage';
 import { LoginPage } from './pages/loginPage';
-// import { CreateAccountPage } from './pages/CreateAccountPage';
+import { CreateAccountPage } from './pages/createAccount';
 // import { AccountSettingsPage } from './pages/AccountSettingsPage';
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
           <Routes>
             <Route path="/" element={<WelcomePage />} />
             <Route path="/login" element={<LoginPage />} />
-            {/* <Route path="/create-account" element={<CreateAccountPage />} />
-            <Route path="/account-settings" element={<AccountSettingsPage />} />
+             <Route path="/create-account" element={<CreateAccountPage />} />
+            {/*<Route path="/account-settings" element={<AccountSettingsPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />  */}
           </Routes>
         </div>
